@@ -1,21 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
-* main - Runs the file and if the n > 0 prints positive and
-* n < 0 negative,else it will print 0
-* Return: Always 0 (Success)
+* main -Entry point
+* use of putchar to write characters specified by the argument
+* Return: Always 0
 */
-
 int main(void)
 {
 	char az = 'a';
 
 	for ( ; az <= 'z'; az++)
-		if (az == 'q' || az == 'e')
-			continue;
-		putchar(az);
-		putchar('\n');
-
+	{
+		if (az != 'e' && az != 'q')
+			putchar(az);
+	}
+	putchar('\n');
 	return (0);
-
 }
