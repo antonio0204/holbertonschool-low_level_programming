@@ -7,8 +7,10 @@
 int main(void)
 {
 	long a, i;
+
 	i = 2;
 	a = 612852475143;
+
 	for (i = 2; i <= a; i++)
 	{
 		if (a % i == 0)
