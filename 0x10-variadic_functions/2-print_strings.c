@@ -28,11 +28,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 		if (i < (n - 1) && separator != NULL)
 		{
-			printf("%d%s", name, separator);
+			printf("%s%s", name, separator);
 		}
 		else
 		{
-			printf("%d", name);
+			printf("%s", name);
 		}
 	}
 	printf("\n");
