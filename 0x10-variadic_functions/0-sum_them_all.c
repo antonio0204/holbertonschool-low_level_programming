@@ -1,16 +1,16 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdio.h>
 /**
- * sum_them_all - function that return sum
- * @n: unsigned int
- * @...: int
- * Return: sum
+ * sum_them_all - returns the sum of all its parameters.
+ * @n: number of operacion
+ * @...: opcional operacion
+ * Return: num1
  */
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list operacion;
-	unsigned int num1 = 0;
-	unsigned int i;
+	unsigned int num1 = 0, i;
 
 	if (n == 0)
 	{
@@ -25,6 +25,5 @@ int sum_them_all(const unsigned int n, ...)
 	}
 
 	va_end(operacion);
-
 	return (num1);
 }
