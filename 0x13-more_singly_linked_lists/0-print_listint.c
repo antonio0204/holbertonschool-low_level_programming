@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_listint -  prints listint.
+ * print_listint -  prints.
  * @h: list to print
  * Return: number
  */
