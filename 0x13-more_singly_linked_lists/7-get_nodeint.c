@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * get_nodeint_at_index - returns .
+ * get_nodeint_at_index - returns index.
  * @head: pointer
  * @index: is the index of the node
  * Return: address memory node or NULL.
