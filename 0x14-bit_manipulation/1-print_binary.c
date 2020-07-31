@@ -12,8 +12,8 @@ unsigned long int _pow(unsigned int a, unsigned int b)
 
 	re = 1;
 
-	for (i = 1; c <= b; i++)
-		rez *= a;
+	for (i = 1; i <= b; i++)
+		re *= a;
 	return (re);
 }
 /**
@@ -26,7 +26,7 @@ void print_binary(unsigned long int n)
 	unsigned long int a;
 	char f = 0;
 
-	d = _pow(2, sizeof(unsigned long int) * 8 - 1);
+	a = _pow(2, sizeof(unsigned long int) * 8 - 1);
 	while (a != 0)
 	{
 		if ((n & a) == a)
