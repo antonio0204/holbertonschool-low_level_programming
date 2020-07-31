@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * binary_to_uint - converts
+ * binary_to_uint - converts number
  * @b: pointer
  * Return: unsigned int
  */
